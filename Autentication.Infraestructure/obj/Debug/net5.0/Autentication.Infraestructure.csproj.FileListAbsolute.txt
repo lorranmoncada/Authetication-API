@@ -1,0 +1,15 @@
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\Autentication.Infraestructure.deps.json
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\Autentication.Infraestructure.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\ref\Autentication.Infraestructure.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\Autentication.Infraestructure.pdb
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\Autentication.Domain.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\bin\Debug\net5.0\Autentication.Domain.pdb
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.csprojAssemblyReference.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.AssemblyInfoInputs.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.AssemblyInfo.cs
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.csproj.CopyComplete
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\ref\Autentication.Infraestructure.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Infraestructure\obj\Debug\net5.0\Autentication.Infraestructure.pdb

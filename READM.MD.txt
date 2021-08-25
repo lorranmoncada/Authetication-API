@@ -1,0 +1,124 @@
+-- public.users definition
+
+-- Drop table
+
+-- DROP TABLE public.users;
+
+CREATE TABLE public.users (
+	id varchar(450) NOT NULL,
+	firstname varchar(250) NOT NULL,
+	lastname varchar(250) NOT NULL,
+	accessfailedcount int4 NOT NULL,
+	concurrencystamp text NULL,
+	email varchar(256) NULL,
+	emailconfirmed bool NOT NULL,
+	lockoutenabled bool NOT NULL,
+	lockoutend timestamp NULL,
+	normalizedemail varchar(256) NULL,
+	normalizedusername varchar(256) NULL,
+	passwordhash text NULL,
+	phonenumber text NULL,
+	phonenumberconfirmed bool NOT NULL,
+	securitystamp text NULL,
+	twofactorenabled bool NOT NULL,
+	username varchar(256) NULL,
+	CONSTRAINT pk_user PRIMARY KEY (id)
+);
+
+----------------------------------------------------
+-- public.userroles definition
+
+-- Drop table
+
+-- DROP TABLE public.userroles;
+
+CREATE TABLE public.userroles (
+	userid varchar(450) NOT NULL,
+	roleid varchar(450) NOT NULL,
+	CONSTRAINT pk_userrole PRIMARY KEY (userid, roleid)
+);
+
+
+-- public.userroles foreign keys
+
+ALTER TABLE public.userroles ADD CONSTRAINT fk_userrole_applicationuser_userid FOREIGN KEY (userid) REFERENCES public.users(id);
+ALTER TABLE public.userroles ADD CONSTRAINT fk_userrole_role_roleid FOREIGN KEY (roleid) REFERENCES public.roles(id);
+
+----------------------------------------------------
+
+-- public.userlogins definition
+
+-- Drop table
+
+-- DROP TABLE public.userlogins;
+
+CREATE TABLE public.userlogins (
+	loginprovider varchar(450) NOT NULL,
+	providerkey varchar(450) NOT NULL,
+	providerdisplayname text NULL,
+	userid varchar(450) NULL,
+	CONSTRAINT pk_userlogin PRIMARY KEY (loginprovider, providerkey)
+);
+
+
+-- public.userlogins foreign keys
+
+ALTER TABLE public.userlogins ADD CONSTRAINT fk_userlogin_applicationuser_userid FOREIGN KEY (userid) REFERENCES public.users(id);
+
+----------------------------------------------------
+
+-- public.userclaims definition
+
+-- Drop table
+
+-- DROP TABLE public.userclaims;
+
+CREATE TABLE public.userclaims (
+	id serial NOT NULL,
+	claimtype text NULL,
+	claimvalue text NULL,
+	userid varchar(450) NULL,
+	CONSTRAINT pk_userclaim PRIMARY KEY (id)
+);
+
+
+-- public.userclaims foreign keys
+
+ALTER TABLE public.userclaims ADD CONSTRAINT fk_userclaim_applicationuser_userid FOREIGN KEY (userid) REFERENCES public.users(id);
+
+----------------------------------------------------
+
+-- public.roles definition
+
+-- Drop table
+
+-- DROP TABLE public.roles;
+
+CREATE TABLE public.roles (
+	id varchar(450) NOT NULL,
+	concurrencystamp text NULL,
+	"name" varchar(256) NULL,
+	normalizedname varchar(256) NULL,
+	CONSTRAINT pk_role PRIMARY KEY (id)
+);
+
+----------------------------------------------------
+
+-- public.roleclaims definition
+
+-- Drop table
+
+-- DROP TABLE public.roleclaims;
+
+CREATE TABLE public.roleclaims (
+	id serial NOT NULL,
+	claimtype text NULL,
+	claimvalue text NULL,
+	roleid varchar(450) NULL,
+	CONSTRAINT pk_roleclaim PRIMARY KEY (id)
+);
+
+
+-- public.roleclaims foreign keys
+
+ALTER TABLE public.roleclaims ADD CONSTRAINT fk_roleclaim_role_roleid FOREIGN KEY (roleid) REFERENCES public.roles(id);

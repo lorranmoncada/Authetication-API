@@ -1,0 +1,12 @@
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\bin\Debug\net5.0\Autentication.Domain.deps.json
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\bin\Debug\net5.0\Autentication.Domain.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\bin\Debug\net5.0\ref\Autentication.Domain.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\bin\Debug\net5.0\Autentication.Domain.pdb
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.csprojAssemblyReference.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.AssemblyInfoInputs.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.AssemblyInfo.cs
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.csproj.CoreCompileInputs.cache
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\ref\Autentication.Domain.dll
+C:\Estudo\Autenticação\src\Autetication\Autentication.Domain\obj\Debug\net5.0\Autentication.Domain.pdb
